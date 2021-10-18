@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,48 +8,200 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
-   <!---- <img src="Background.jpg" class="img-fluid mt-auto" alt="...">-->
-    <div class="p-3 mb-2 bg-dark-fluid text-white"></div>
+<body class="d-flex flex-column min-vh-100 bg-dark">
+    <!---- <img src="Background.jpg" class="img-fluid mt-auto" alt="...">-->
+
     <header>
         <!---<img src="LOGO.png" class="img-thumbnail" alt="..." style="width:18rem;">-->
-         <img src="munch.logo.JPG" class="rounded float-start border-dark background-color: bg-dark-fluid"   alt="..." style="width:8rem;">
-     
+        <img src="munch_logo.png" class="rounded float-start border-dark background-color: bg-dark-fluid" alt="..."
+            style="width:8rem;">
+        <h2 id="hi_header" class='mt-5'> Munch Restaurant </h2>
+        <h4 id="tagline"> The Flavours of your wish</h4>
+
     </header>
-         <nav class="navbar-expand-lg navbar-dark navbar-light" style="background-color:black;">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#"></a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Conatact</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <nav class="navbar-expand-lg navbar-dark navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">Order</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id="searchbutton" class="btn" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <img src="four4.jpg" class="picture mw-100 " style="height: 350px;" alt="..." >
+
+    <main class="container pt-5" style="background-color: black !important;">
+        <div class="row">
+            <div class="col-12 col-md-7 pt-3 border">
+                <h2 id="hi_header" class='text-center'> Speciality Meals for Upcoming Events </h2>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="order.html" class="stretched-link">
+                                <img src="hallowen.jpg" class="img-fluid rounded-start" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spooky Cookies</h5>
+                                    <p class="card-text">MUNCH creates the viral Spooky Spider cookies that are loved by
+                                        kids. The cute cookies are spookier than you think. Every Halloween feast is
+                                        incomplete without these. Some melted chocolate on the top can make foodies gaga.
+                                    </p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="order.html" class="stretched-link"></a>
+                            <img src="Pancake.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Scary Pancakes</h5>
+                                <p class="card-text">It’s a scary october when MUNCH restaurants bring back the “scary
+                                    face” pancake –-and a special halloween treat on october 31 when kids under 12 get a
+                                    “scary face” pancake free!</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="order.html" class="stretched-link"></a>
+                            <img src="turky_thanks.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Thanksgiving deal</h5>
+                                <p class="card-text">MUNCH is great place to get a prepared traditional Thanksgiving
+                                    meal. Its Farmhouse Feast meals include traditional fare such as turkey, gravy,
+                                    mashed potatoes, green beans and ham, apple pie and even pumpkin pie.</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="order.html" class="stretched-link"></a>
+                            <img src="Thanks_giving.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Thanksgiving deal</h5>
+                                <p class="card-text">MUNCH is great place to get a prepared traditional Thanksgiving
+                                    meal. Its Farmhouse Feast meals include traditional fare such as turkey, gravy,
+                                    mashed potatoes, green beans and ham, apple pie and even pumpkin pie.</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <img src="banner 2.jpg" class= "mw-100" style="height: 350px;" alt="...">
-        
-         
-     </header>
+            <div class="col-12 col-md-5 border pt-3">
+                <h2 id="hi_header" class='text-center'> Restaurant Hours </h2>
+                <table class="table text-white table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Days</th>
+                            <th scope="col">Timings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+
+                            <td>Sunday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Monday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Tuesday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Wednesday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Thursday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Friday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Saturday</td>
+                            <td>11:00-21:00</td>
+
+                        </tr>
+                        <!---<div class= "col-12 col-md-5 rounded float-end border-dark background-color: bg-dark-fluid">--->
+
+            </div>
+            </tbody>
+            </table>
+            <img src="Contact.png" class="img-fluid" alt="..." style="width:30rem">
+        </div>
+        </div>
+
+        ​
+
+    </main>
+
+
+
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>   
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
