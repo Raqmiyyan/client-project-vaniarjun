@@ -1,0 +1,83 @@
+ .bg-dark{
+    background-color: black;
+} 
+/* .d-flex{
+    background-image: url("seven.jpg");
+} */
+/* #intro{
+    height: 100%;
+}
+#intro{
+    background: url("seven.jpg")
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+} */
+
+#order_body {
+    background-image: url("seven.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#searchbutton:hover{
+    background-color:darkgray;
+}
+#searchbutton{
+    color: darkmagenta;
+}
+#hi_header{
+    font-family: 'Berkshire Swash', cursive;
+    color:deeppink;
+}
+#tagline{
+    font-family: 'Rock Salt', cursive;
+    color:blanchedalmond;
+    font-size: small;
+}
+#lead{
+    font-family: 'Berkshire Swash', cursive;
+    color:dimgray;  
+}
+
+.accordion-header button {
+    background-color:seashell!important;
+    color:black!important;
+}
+.navbar-toggler {
+    background-color:black !important;
+}
+
+.container{
+    background-color:black !important;   
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+button.accordion-button{
+    width: 100px;
+}
+.container pt-5
+{
+    background-color: black;
+}
+
+.card-img-top:hover {
+    transform: scale(1);
+    width: 222px;
+    height: 100%;
+    position: absolute;
+    background: url(https://www.pexels.com/photo/blank-clipboard-with-fresh-vegetables-and-herbs-on-table-4033634/)
+}
+.container card-img{
+    transform: scale(1);
+    width: 222px;
+    height: 100%;
+    position: absolute;
+    background: url(https://www.pexels.com/photo/blank-clipboard-with-fresh-vegetables-and-herbs-on-table-4033634/)
+
+} 
